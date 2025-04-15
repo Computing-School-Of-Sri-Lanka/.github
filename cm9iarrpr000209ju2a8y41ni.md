@@ -1,10 +1,10 @@
 ---
-title: "කම්පියුටර් නෙට්වර්ක් ගැන සරලව: ජාල වර්ග, Hardware සහ Software"
+title: "Basic Guide to Computer Networks: Network Types, Hardware, and Software"
 seoTitle: "Computer Networks in Sinhala"
 seoDescription: "Learn about computer networks, types, hardware, and software in a simple way. Explore network types by size and data transfer methods"
 datePublished: Tue Apr 15 2025 09:25:34 GMT+0000 (Coordinated Universal Time)
 cuid: cm9iarrpr000209ju2a8y41ni
-slug: hardware-software
+slug: basic-guide-to-computer-networks-network-types-hardware-and-software
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/40XgDxBfYXM/upload/35f8634265660cb635a5d9978ae05900.jpeg
 tags: networking, protocols, sinhala, networking-sinhala
 
