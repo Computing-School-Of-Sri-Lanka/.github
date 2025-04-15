@@ -6,11 +6,11 @@ slug: lambda-expressions
 
 ## **Java වල Lambda Expressions: කේතකරණය සරල කරන අපූරු ක්‍රමයක්**
 
-ආයුබෝවන් Java ලෝලීන්ට! අද අපි කතා කරන්නේ Java 8 සමඟ හඳුන්වා දුන්, කේතකරණය වඩාත් සංක්ෂිප්ත (concise) සහ ප්‍රකාශනාත්මක (expressive) කරන ප්‍රබල අංගයක් වන Lambda Expressions ගැනයි. සරලව කිව්වොත්, මේවා නම් රහිත, කෙටි කේත කොටස් (short code blocks) වන අතර, ඒවා වෙනත් method එකකට argument එකක් ලෙස යැවීමට හෝ දත්තයක් ලෙස භාවිතා කිරීමට හැකියාව ලබා දෙනවා.
+ආයුබෝවන් හිතමිත්‍රJava ලෝලීන්ට! අද අපි කතා කරන්නේ Java 8 සමඟ හඳුන්වා දුන්, කේතකරණය වඩාත් සංක්ෂිප්ත (concise) සහ ප්‍රකාශනාත්මක (expressive) කරන ප්‍රබල අංගයක් වන Lambda Expressions ගැනයි. සරලව කිව්වොත්, මේවා නම් රහිත, කෙටි කේත කොටස් (short code blocks) වන අතර, ඒවා වෙනත් method එකකට argument එකක් ලෙස යැවීමට හෝ දත්තයක් ලෙස භාවිතා කිරීමට හැකියාව ලබා දෙනවා.
 
 **Lambda Expressions කියන්නේ මොනවාද?**
 
-හිතන්න ඔබට යම් කාර්යයක් කිරීමට අවශ්‍ය කුඩා කේත කණ්ඩයක් තියෙනවා, උදාහරණයක් විදියට list එකක තියෙන හැම අයිතමයක්ම print කරන එක. සාමාන්‍යයෙන් අපි මේකට වෙනම method එකක් ලියනවා හෝ anonymous inner class එකක් පාවිච්චි කරනවා. Lambda expression එකකින් මේ කාර්යය බොහොම කෙටියෙන්, අවශ්‍ය තැනම ලියන්න පුළුවන්.
+හිතන්න ඔබට යම් කාර්යයක් කිරීමට අවශ්‍ය කුඩා කේත ඛණ්ඩයක් තියෙනවා, උදාහරණයක් විදියට list එකක තියෙන හැම අයිතමයක්ම print කරන එක. සාමාන්‍යයෙන් අපි මේකට වෙනම method එකක් ලියනවා හෝ anonymous inner class එකක් පාවිච්චි කරනවා. Lambda expression එකකින් මේ කාර්යය බොහොම කෙටියෙන්, අවශ්‍ය තැනම ලියන්න පුළුවන්.
 
 Lambda expression එකක් කියන්නේ:
 
@@ -20,10 +20,10 @@ Lambda expression එකක් කියන්නේ:
     
 3. **Argument එකක් ලෙස යැවිය හැකි:** Method එකකට parameter එකක් විදියට දෙන්න පුළුවන්.
     
-4. **Data එකක් ලෙස සැලකිය හැකි:** කේතයක් වුනත්, දත්තයක් වගේ හසුරවන්න පුළුවන්.
+4. **Data එකක් ලෙස සැලකිය හැකි:** කේතයක් වුනත්, දත්තයක් වගේ හසුරවන්න පුළුවන් කේත කොටසකට.
     
 
-මේවා හඳුන්වාදීමේ ප්‍රධාන අරමුණක් වුනේ Java වලට ක්‍රියාකාරී ක්‍රමලේඛන (Functional Programming) සංකල්ප පහසුවෙන් එක් කිරීමට සහ විශේෂයෙන්ම Java Streams API වැනි දේ සමඟ වැඩ කිරීම සරල කිරීමටයි.
+මේවා හඳුන්වාදීමේ ප්‍රධාන අරමුණක් වුනේ Java වලට Functional Programming සංකල්ප පහසුවෙන් එක් කිරීමට සහ විශේෂයෙන්ම Java Streams API වැනි දේ සමඟ වැඩ කිරීම සරල කිරීමටයි.
 
 **Lambda සහ Functional Interfaces (Single Abstract Method Interfaces - SAM)**
 
@@ -33,6 +33,8 @@ Lambda expressions හි හදවත තමයි **Functional Interface** ක
     
 * **Lambda එක ගැළපෙන්නේ කෙසේද?:** ඔබ ලියන Lambda expression එක ඇත්තටම අර Functional Interface එකේ තියෙන එකම එක abstract method එකට අදාළ **implementation** (ක්‍රියාත්මක වන කේතය) එකයි. Lambda එකේ parameters ගණන, වර්ගය සහ return type එක අර abstract method එකට ගැළපෙන්න ඕන.
     
+
+පහළ තියෙන උදාහරණය බලල ඉන්නකෝ
 
 ```java
 // Functional Interface එකක් (එක abstract method එකක්)
