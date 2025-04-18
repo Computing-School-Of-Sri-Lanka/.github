@@ -5,7 +5,7 @@ seoDescription: "Learn networking basics in Sinhala, covering client-server mode
 datePublished: Sat Feb 22 2025 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm94i7swb000k09l7deoe56e9
 slug: beginners-guide-to-networking-in-sinhala
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/40XgDxBfYXM/upload/9d9a498d5b843606ad0cbfe893938d14.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/SwVkmowt7qA/upload/61ba1bad642c5c6ca79876ee4ef4c7dd.jpeg
 tags: networking, it, ccna, srilanka, networking-sinhala
 
 ---
